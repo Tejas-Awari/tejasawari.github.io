@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrono Watches | Timeless Elegance</title>
+    <meta name="description" content="Discover our exclusive collection of premium luxury watches.">
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '109080919388802');
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=109080919388802&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container nav">
+        <a class="logo" href="index.html">Chrono Watches</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#collection">Collection</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <p class="eyebrow">CRAFTED FOR THE MOMENT</p>
+            <h1>Timeless<br><span>Elegance</span></h1>
+            <p class="hero-text">Discover our exclusive collection of premium luxury watches designed for those who appreciate the finer moments in life.</p>
+            <a href="#collection" class="btn">Explore the Collection</a>
+        </div>
+    </section>
+
+    <section id="collection" class="products-section">
+        <div class="container">
+            <p class="eyebrow">OUR COLLECTION</p>
+            <h2>Featured Timepieces</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=800&q=80" alt="Classic leather luxury watch">
+                    <div class="card-content">
+                        <h3>The Heritage Classic</h3>
+                        <p class="card-price">$295.00</p>
+                        <button class="btn add-cart" data-product="The Heritage Classic" data-value="295">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=800&q=80" alt="Midnight chronograph luxury watch">
+                    <div class="card-content">
+                        <h3>Midnight Chronograph</h3>
+                        <p class="card-price">$450.00</p>
+                        <button class="btn add-cart" data-product="Midnight Chronograph" data-value="450">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+
+            <div id="cart-message" class="message" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container contact-box">
+            <div>
+                <p class="eyebrow">INTERESTED?</p>
+                <h2>Request More Information</h2>
+                <p>Submit the short form and we'll get in touch about your preferred timepiece.</p>
+            </div>
+            <form id="lead-form">
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <button class="btn" type="submit">Request Information</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; <span id="year"></span> Chrono Watches. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
