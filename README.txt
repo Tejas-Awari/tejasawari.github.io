@@ -9,7 +9,7 @@ Files:
 - script.js — button/event behavior
 
 Meta Pixel:
-- Pixel ID: 109080919388802
+- Pixel ID: 2421472301993152
 - PageView fires on both pages.
 - AddToCart fires when a product button is clicked.
 - Lead fires on thank-you.html.
